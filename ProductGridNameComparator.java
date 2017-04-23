@@ -61,8 +61,8 @@ public class ProductGridNameComparator implements Comparator<String> {
 	private int getIndexOfFirstNonDigit(String prodName) {
 		/* First index of product grid name that will be treated with alpha
 		 * ascending although index may correspond to a digit in the product
-		 * grid name:
-		 */
+		 * grid name:                                                    */
+		
 		final int NUM_DIGITS = 3;
 		for (int index = 0; index < NUM_DIGITS; index++) {
 			char charA = charAt(prodName, index);

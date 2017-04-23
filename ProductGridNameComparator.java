@@ -81,10 +81,3 @@ public class ProductGridNameComparator implements Comparator<String> {
 		return s.charAt(i);
 	}
 }
-
-//String[] products = new String[] { "TEAM", "ta", "TEam 1", "TA", "tab", "10-Year Fixed Rate", "8", "8", "6", "o", ",,", "z", "20-Year Fixed Rate",
-//		"30-Year Fixed Rate A", "22-Year Fixed", "30-year fixed rate", "301", "303", "10", "fat", "abc", "ob",
-//		"aa", "aaa", "a", "z", "c" };
-// Arrays.sort(products, new ProductGridNameComparator());
-// for (String product: products)
-// System.out.println(product);
